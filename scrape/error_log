@@ -1,0 +1,7 @@
+[06-Jul-2017 12:13:46 America/Chicago] PHP Warning:  include(simple_html_dom.php): failed to open stream: No such file or directory in /home4/chase/public_html/badgem/scrape/index.php on line 2
+[06-Jul-2017 12:13:46 America/Chicago] PHP Warning:  include(simple_html_dom.php): failed to open stream: No such file or directory in /home4/chase/public_html/badgem/scrape/index.php on line 2
+[06-Jul-2017 12:13:46 America/Chicago] PHP Warning:  include(): Failed opening 'simple_html_dom.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home4/chase/public_html/badgem/scrape/index.php on line 2
+[06-Jul-2017 12:15:46 America/Chicago] PHP Fatal error:  Call to a member function find() on a non-object in /home4/chase/public_html/badgem/scrape/index.php on line 10
+[06-Jul-2017 12:17:52 America/Chicago] PHP Fatal error:  Call to a member function find() on a non-object in /home4/chase/public_html/badgem/scrape/index.php on line 10
+[06-Jul-2017 12:17:58 America/Chicago] PHP Fatal error:  Call to a member function find() on a non-object in /home4/chase/public_html/badgem/scrape/index.php on line 10
+[06-Jul-2017 12:21:00 America/Chicago] PHP Fatal error:  Call to a member function find() on a non-object in /home4/chase/public_html/badgem/scrape/index.php on line 10

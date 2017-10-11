@@ -1,0 +1,42 @@
+[29-Jul-2017 15:58:18 America/Chicago] PHP Parse error:  syntax error, unexpected ':' in /home3/league/public_html/create/mgmt/actions.php on line 12
+[29-Jul-2017 15:58:49 America/Chicago] PHP Fatal error:  Class 'Connection' not found in /home3/league/public_html/create/mgmt/actions.php on line 7
+[29-Jul-2017 16:36:08 America/Chicago] PHP Fatal error:  Call to undefined function start_session() in /home3/league/public_html/create/mgmt/index.php on line 2
+[12-Sep-2017 16:23:15 America/Chicago] PHP Parse error:  syntax error, unexpected '"'/>"' (T_CONSTANT_ENCAPSED_STRING) in /home3/league/public_html/create/engine/functions.php on line 87
+[12-Sep-2017 16:23:18 America/Chicago] PHP Parse error:  syntax error, unexpected '"'/>"' (T_CONSTANT_ENCAPSED_STRING) in /home3/league/public_html/create/engine/functions.php on line 87
+[14-Sep-2017 15:30:31 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home3/league/public_html/create/mgmt/category.php on line 30
+[14-Sep-2017 15:30:49 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/league/public_html/create/mgmt/category.php on line 44
+[14-Sep-2017 15:30:52 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/league/public_html/create/mgmt/category.php on line 44
+[14-Sep-2017 15:32:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/league/public_html/create/mgmt/category.php:26) in /home3/league/public_html/create/mgmt/category.php on line 34
+[14-Sep-2017 15:33:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/league/public_html/create/mgmt/category.php:26) in /home3/league/public_html/create/mgmt/category.php on line 34
+[14-Sep-2017 15:33:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/league/public_html/create/mgmt/category.php:26) in /home3/league/public_html/create/mgmt/category.php on line 34
+[14-Sep-2017 15:33:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/league/public_html/create/mgmt/category.php:26) in /home3/league/public_html/create/mgmt/category.php on line 34
+[14-Sep-2017 15:50:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/league/public_html/create/mgmt/category.php:26) in /home3/league/public_html/create/mgmt/category.php on line 34
+[14-Sep-2017 15:59:12 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home3/league/public_html/create/mgmt/category.php on line 56
+[26-Sep-2017 05:32:52 America/Chicago] PHP Fatal error:  Call to undefined method PDOStatement::num_rows() in /home3/league/public_html/create/mgmt/actions.php on line 106
+[09-Oct-2017 11:11:26 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home3/league/public_html/create/engine/connect.php:5
+Stack trace:
+#0 /home3/league/public_html/create/engine/connect.php(5): PDO->__construct('mysql:host=loca...', 'league_chase', 'chase123')
+#1 /home3/league/public_html/create/mgmt/actions.php(23): Connection->dbConnect()
+#2 {main}
+  thrown in /home3/league/public_html/create/engine/connect.php on line 5
+[09-Oct-2017 11:11:29 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home3/league/public_html/create/engine/connect.php:5
+Stack trace:
+#0 /home3/league/public_html/create/engine/connect.php(5): PDO->__construct('mysql:host=loca...', 'league_chase', 'chase123')
+#1 /home3/league/public_html/create/engine/functions.php(81): Connection->dbConnect()
+#2 /home3/league/public_html/create/mgmt/index.php(118): catTags()
+#3 {main}
+  thrown in /home3/league/public_html/create/engine/connect.php on line 5
+[09-Oct-2017 11:11:34 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home3/league/public_html/create/engine/connect.php:5
+Stack trace:
+#0 /home3/league/public_html/create/engine/connect.php(5): PDO->__construct('mysql:host=loca...', 'league_chase', 'chase123')
+#1 /home3/league/public_html/create/engine/functions.php(81): Connection->dbConnect()
+#2 /home3/league/public_html/create/mgmt/index.php(118): catTags()
+#3 {main}
+  thrown in /home3/league/public_html/create/engine/connect.php on line 5
+[09-Oct-2017 11:11:45 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home3/league/public_html/create/engine/connect.php:5
+Stack trace:
+#0 /home3/league/public_html/create/engine/connect.php(5): PDO->__construct('mysql:host=loca...', 'league_chase', 'chase123')
+#1 /home3/league/public_html/create/engine/functions.php(81): Connection->dbConnect()
+#2 /home3/league/public_html/create/mgmt/index.php(118): catTags()
+#3 {main}
+  thrown in /home3/league/public_html/create/engine/connect.php on line 5

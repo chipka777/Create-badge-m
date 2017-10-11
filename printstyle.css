@@ -1,0 +1,198 @@
+body {
+	font-family: "Open Sans", sans-serif;
+	margin: 0;
+}
+
+.frame-area {
+	position: absolute;
+	top:10px;
+	left: 30px;
+	width: 384px;
+	height: 576px;
+	box-shadow: 0px 0px 5px #ccc;
+	border: 3px dotted #ddd;
+	background: #fff;
+}
+
+.controls {
+	position: absolute;
+	top: -4px;
+	right: -4px;
+	width: 30%;
+	border-bottom-left-radius: 10px;
+	border: 4px solid #22dada;
+	padding: 20px;
+	background: url(img/concrete-texture.png) 0 0;
+	box-shadow: 0px 0px 5px #bbb;
+}
+.bottom-nav {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 10px;
+	background: url(img/concrete-texture.png) 0 0;
+	box-shadow: 0px 0px 5px #bbb;
+}
+.frame {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 4in;
+	height: 6in;
+	margin: 0 0 0 0;
+	box-sizing: border-box;
+}
+.frame.landscape {
+	width: 6in;
+	height: 4in;
+}
+.frame-area.landscape {
+	width: 576px;
+	height: 388px;
+}
+.frame-img {
+	width: auto;
+}
+.frame-img img {
+	width: 100%;
+	-ms-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+.frame-info {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.frame.small {
+	width: 200px;
+	height: 400px;
+	margin: 0 0 0 -150px;
+}
+.preview-form {
+	width: 100%;
+	float: left;
+	padding: 0px;
+	text-align: center;
+}
+.controls h2 {
+	color: #444;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.preview-form input {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	text-align: center;
+}
+.preview-form input[type=submit] {
+	background: #4dc2c2;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	padding: 12px 24px;
+	font-size: 1.2em;
+	box-shadow: 0px 3px 5px #444;
+}
+.print-nav {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.rotate-slider {
+	width: 4in;
+	float: left;
+	margin: `10px 0;
+}
+
+#btnSave {
+	background: #4dc2c2;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	padding: 12px 24px;
+	font-size: 1.5em;
+	box-shadow: 0px 3px 5px #444;
+	float: right;
+}
+
+.directions {
+	position: fixed;
+	top: 100px;
+	width: 50%;
+	background: #fff;
+	box-shadow: 0px 3px 5px #444;
+	padding: 20px;
+	color: #444;
+	left: -100%;
+	transition: .5s all ease;
+}
+.directions.shown {
+	left: 25%;
+}
+
+.land {
+	float: left;
+	width: 40%;
+	margin: 10px 5% 10px 10px;
+}
+
+.portrait {
+	float: left;
+	width: 40%;
+	margin: 10px 5% 10px 10px;
+}
+
+.orientation {
+	width: 100px;
+	padding: 10px;
+	background: #fff;
+	color: #999;
+	border: 2px solid #999;
+}
+.orientation.active {
+	background: #fff;
+	color: #22dada;
+	border: 2px solid #22dada;
+}
+
+/* PRINT SETUP */
+
+@page {
+  size: 4in 6in;
+  margin: 0; 
+}
+
+* {
+	box-sizing: border-box;
+}
+
+@media print {
+	body {
+		width: 384px;
+		height: 576px;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+	}
+  body * {
+    visibility: hidden;
+  }
+  .frame, .frame * {
+    visibility: visible;
+  }
+  .frame {
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+}

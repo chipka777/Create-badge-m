@@ -1,0 +1,109 @@
+[21-May-2017 18:18:12 America/Chicago] PHP Fatal error:  Call to undefined function tryLogin() in /home4/chase/public_html/badgem/login.php on line 9
+[21-May-2017 18:18:48 America/Chicago] PHP Warning:  require(functions.php): failed to open stream: No such file or directory in /home4/chase/public_html/badgem/login.php on line 3
+[21-May-2017 18:18:48 America/Chicago] PHP Warning:  require(functions.php): failed to open stream: No such file or directory in /home4/chase/public_html/badgem/login.php on line 3
+[21-May-2017 18:18:48 America/Chicago] PHP Fatal error:  require(): Failed opening required 'functions.php' (include_path='.:/opt/php54/lib/php') in /home4/chase/public_html/badgem/login.php on line 3
+[21-May-2017 18:20:10 America/Chicago] PHP Fatal error:  Call to undefined function tryLogin() in /home4/chase/public_html/badgem/login.php on line 8
+[21-May-2017 18:20:51 America/Chicago] PHP Warning:  include(/engine/functions.php): failed to open stream: No such file or directory in /home4/chase/public_html/badgem/login.php on line 3
+[21-May-2017 18:20:51 America/Chicago] PHP Warning:  include(): Failed opening '/engine/functions.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home4/chase/public_html/badgem/login.php on line 3
+[21-May-2017 18:20:51 America/Chicago] PHP Fatal error:  Call to undefined function tryLogin() in /home4/chase/public_html/badgem/login.php on line 9
+[21-May-2017 18:25:02 America/Chicago] PHP Warning:  include(/engine/functions.php): failed to open stream: No such file or directory in /home4/chase/public_html/badgem/login.php on line 3
+[21-May-2017 18:25:02 America/Chicago] PHP Warning:  include(): Failed opening '/engine/functions.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home4/chase/public_html/badgem/login.php on line 3
+[21-May-2017 18:25:02 America/Chicago] PHP Fatal error:  Class 'Connection' not found in /home4/chase/public_html/badgem/login.php on line 9
+[21-May-2017 18:25:38 America/Chicago] PHP Warning:  include(/engine/functions.php): failed to open stream: No such file or directory in /home4/chase/public_html/badgem/login.php on line 3
+[21-May-2017 18:25:38 America/Chicago] PHP Warning:  include(): Failed opening '/engine/functions.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home4/chase/public_html/badgem/login.php on line 3
+[21-May-2017 18:25:38 America/Chicago] PHP Fatal error:  Class 'Connection' not found in /home4/chase/public_html/badgem/login.php on line 9
+[24-May-2017 15:00:50 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/chase/public_html/badgem/preview.php on line 37
+[24-May-2017 16:32:21 America/Chicago] PHP Fatal error:  Class 'Connection' not found in /home4/chase/public_html/badgem/submit.php on line 11
+[24-May-2017 16:32:47 America/Chicago] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home4/chase/public_html/badgem/submit.php on line 4
+[24-May-2017 16:32:47 America/Chicago] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home4/chase/public_html/badgem/submit.php on line 4
+[24-May-2017 16:32:47 America/Chicago] PHP Warning:  include(): Failed opening 'functions.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home4/chase/public_html/badgem/submit.php on line 4
+[24-May-2017 16:32:47 America/Chicago] PHP Fatal error:  Class 'Connection' not found in /home4/chase/public_html/badgem/submit.php on line 13
+[24-May-2017 16:33:04 America/Chicago] PHP Warning:  include(classes.php): failed to open stream: No such file or directory in /home4/chase/public_html/badgem/submit.php on line 4
+[24-May-2017 16:33:04 America/Chicago] PHP Warning:  include(classes.php): failed to open stream: No such file or directory in /home4/chase/public_html/badgem/submit.php on line 4
+[24-May-2017 16:33:04 America/Chicago] PHP Warning:  include(): Failed opening 'classes.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home4/chase/public_html/badgem/submit.php on line 4
+[24-May-2017 16:33:04 America/Chicago] PHP Fatal error:  Class 'Connection' not found in /home4/chase/public_html/badgem/submit.php on line 13
+[24-May-2017 16:58:35 America/Chicago] PHP Fatal error:  Class 'Connection' not found in /home4/chase/public_html/badgem/home.php on line 24
+[24-May-2017 17:43:05 America/Chicago] PHP Warning:  Division by zero in /home4/chase/public_html/badgem/home.php on line 27
+[24-May-2017 17:43:05 America/Chicago] PHP Warning:  Division by zero in /home4/chase/public_html/badgem/home.php on line 27
+[24-May-2017 17:45:01 America/Chicago] PHP Warning:  Division by zero in /home4/chase/public_html/badgem/home.php on line 27
+[24-May-2017 17:45:01 America/Chicago] PHP Warning:  Division by zero in /home4/chase/public_html/badgem/home.php on line 27
+[24-May-2017 17:45:37 America/Chicago] PHP Warning:  Division by zero in /home4/chase/public_html/badgem/home.php on line 28
+[24-May-2017 17:45:37 America/Chicago] PHP Warning:  Division by zero in /home4/chase/public_html/badgem/home.php on line 28
+[24-May-2017 17:45:46 America/Chicago] PHP Warning:  Division by zero in /home4/chase/public_html/badgem/home.php on line 28
+[24-May-2017 17:45:46 America/Chicago] PHP Warning:  Division by zero in /home4/chase/public_html/badgem/home.php on line 28
+[24-May-2017 17:48:17 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home4/chase/public_html/badgem/home.php on line 28
+[24-May-2017 17:49:03 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home4/chase/public_html/badgem/home.php on line 28
+[24-May-2017 17:49:26 America/Chicago] PHP Warning:  Division by zero in /home4/chase/public_html/badgem/home.php on line 28
+[24-May-2017 17:49:26 America/Chicago] PHP Warning:  Division by zero in /home4/chase/public_html/badgem/home.php on line 28
+[24-May-2017 17:49:37 America/Chicago] PHP Warning:  Division by zero in /home4/chase/public_html/badgem/home.php on line 28
+[24-May-2017 17:49:37 America/Chicago] PHP Warning:  Division by zero in /home4/chase/public_html/badgem/home.php on line 28
+[24-May-2017 19:12:10 America/Chicago] PHP Fatal error:  Class 'Connection' not found in /home4/chase/public_html/badgem/register.php on line 9
+[03-Jul-2017 16:10:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/chase/public_html/badgem/engine/functions.php:33) in /home4/chase/public_html/badgem/register.php on line 22
+[03-Jul-2017 16:18:58 America/Chicago] PHP Fatal error:  Class 'Connection' not found in /home4/chase/public_html/badgem/home.php on line 26
+[03-Jul-2017 16:20:18 America/Chicago] PHP Fatal error:  Class 'Connection' not found in /home4/chase/public_html/badgem/home.php on line 26
+[03-Jul-2017 16:20:38 America/Chicago] PHP Fatal error:  Class 'Connection' not found in /home4/chase/public_html/badgem/home.php on line 26
+[03-Jul-2017 16:33:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/chase/public_html/badgem/header.php:14) in /home4/chase/public_html/badgem/home.php on line 4
+[03-Jul-2017 16:33:29 America/Chicago] PHP Fatal error:  Class 'Connection' not found in /home4/chase/public_html/badgem/home.php on line 32
+[03-Jul-2017 16:34:17 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/chase/public_html/badgem/home.php on line 155
+[03-Jul-2017 16:52:35 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/chase/public_html/badgem/home.php on line 155
+[03-Jul-2017 16:52:48 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/chase/public_html/badgem/home.php on line 155
+[03-Jul-2017 17:26:59 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/chase/public_html/badgem/home.php on line 155
+[03-Jul-2017 17:27:04 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/chase/public_html/badgem/home.php on line 155
+[03-Jul-2017 17:27:12 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/chase/public_html/badgem/home.php on line 155
+[04-Jul-2017 00:07:14 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/chase/public_html/badgem/home.php on line 155
+[04-Jul-2017 00:07:31 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/chase/public_html/badgem/home.php on line 155
+[04-Jul-2017 00:07:33 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/chase/public_html/badgem/home.php on line 155
+[04-Jul-2017 00:07:35 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/chase/public_html/badgem/home.php on line 155
+[04-Jul-2017 00:07:36 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/chase/public_html/badgem/home.php on line 155
+[04-Jul-2017 00:07:47 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/chase/public_html/badgem/home.php on line 155
+[04-Jul-2017 00:08:00 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/chase/public_html/badgem/home.php on line 155
+[05-Jul-2017 16:45:31 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/chase/public_html/badgem/home.php on line 155
+[06-Jul-2017 12:07:55 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/chase/public_html/badgem/home.php on line 155
+[06-Jul-2017 12:39:28 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/chase/public_html/badgem/home.php on line 155
+[11-Jul-2017 17:59:44 America/Chicago] PHP Warning:  Division by zero in /home4/chase/public_html/badgem/home.php on line 63
+[11-Jul-2017 17:59:44 America/Chicago] PHP Warning:  Division by zero in /home4/chase/public_html/badgem/home.php on line 63
+[11-Jul-2017 18:52:46 America/Chicago] PHP Warning:  Division by zero in /home4/chase/public_html/badgem/home.php on line 63
+[11-Jul-2017 18:52:46 America/Chicago] PHP Warning:  Division by zero in /home4/chase/public_html/badgem/home.php on line 63
+[18-Jul-2017 15:43:17 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '$' in /home4/chase/public_html/badgem/preview.php on line 72
+[18-Jul-2017 16:27:02 America/Chicago] PHP Fatal error:  Class 'Connection' not found in /home4/chase/public_html/badgem/home.php on line 4
+[18-Jul-2017 16:36:08 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home4/chase/public_html/badgem/load.php on line 30
+[18-Jul-2017 16:36:12 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home4/chase/public_html/badgem/load.php on line 30
+[18-Jul-2017 16:36:15 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home4/chase/public_html/badgem/load.php on line 30
+[18-Jul-2017 17:07:23 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home4/chase/public_html/badgem/home.php on line 64
+[18-Jul-2017 18:59:30 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home4/chase/public_html/badgem/home.php on line 51
+[29-Jul-2017 14:47:16 America/Chicago] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING) in /home3/league/public_html/create/engine/connect.php on line 5
+[29-Jul-2017 14:59:50 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'league_chase'@'localhost' to database 'league_badgem'' in /home3/league/public_html/create/engine/connect.php:5
+Stack trace:
+#0 /home3/league/public_html/create/engine/connect.php(5): PDO->__construct('mysql:host=loca...', 'league_chase', 'chase123')
+#1 /home3/league/public_html/create/login.php(11): Connection->dbConnect()
+#2 {main}
+  thrown in /home3/league/public_html/create/engine/connect.php on line 5
+[10-Aug-2017 12:01:17 America/Chicago] PHP Fatal error:  Class 'Connection' not found in /home3/league/public_html/create/index.php on line 8
+[27-Sep-2017 03:31:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/league/public_html/create/load-update.php on line 79
+[27-Sep-2017 09:02:19 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/league/public_html/create/load-update.php on line 79
+[04-Oct-2017 04:49:23 America/Chicago] PHP Fatal error:  Class 'Connection' not found in /home3/league/public_html/create/cat_search_ajax.php on line 6
+[04-Oct-2017 04:53:42 America/Chicago] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home3/league/public_html/create/cat_search_ajax.php on line 20
+[09-Oct-2017 11:26:29 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home3/league/public_html/create/engine/connect.php:5
+Stack trace:
+#0 /home3/league/public_html/create/engine/connect.php(5): PDO->__construct('mysql:host=loca...', 'league_chase', 'chase123')
+#1 /home3/league/public_html/create/index.php(10): Connection->dbConnect()
+#2 {main}
+  thrown in /home3/league/public_html/create/engine/connect.php on line 5
+[09-Oct-2017 15:48:33 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home3/league/public_html/create/engine/connect.php:5
+Stack trace:
+#0 /home3/league/public_html/create/engine/connect.php(5): PDO->__construct('mysql:host=loca...', 'league_chase', 'chase123')
+#1 /home3/league/public_html/create/index.php(10): Connection->dbConnect()
+#2 {main}
+  thrown in /home3/league/public_html/create/engine/connect.php on line 5
+[09-Oct-2017 15:48:40 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home3/league/public_html/create/engine/connect.php:5
+Stack trace:
+#0 /home3/league/public_html/create/engine/connect.php(5): PDO->__construct('mysql:host=loca...', 'league_chase', 'chase123')
+#1 /home3/league/public_html/create/index.php(10): Connection->dbConnect()
+#2 {main}
+  thrown in /home3/league/public_html/create/engine/connect.php on line 5
+[10-Oct-2017 14:11:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home3/league/public_html/create/engine/connect.php:5
+Stack trace:
+#0 /home3/league/public_html/create/engine/connect.php(5): PDO->__construct('mysql:host=loca...', 'league_chase', 'chase123')
+#1 /home3/league/public_html/create/index.php(10): Connection->dbConnect()
+#2 {main}
+  thrown in /home3/league/public_html/create/engine/connect.php on line 5
