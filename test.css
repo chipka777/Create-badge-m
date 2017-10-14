@@ -295,22 +295,22 @@ width: 28%;
 .panels {
 	width: 100%;
 	position: absolute;
-	top: 0;
-	left: 0;
-	overflow: hidden;
+	top: -1%;
+	left: 8%;
+	/* overflow: hidden; */
 	height: 100%;
 }
 .panel {
 	padding: 0;
-	position: absolute;
-	z-index: 99;
-	width: 33%;
-	height: 33%;
-	transition: .5s all ease;
-	display: table-cell;
-	/*overflow: hidden;*/
-	border-radius: 20px;
-	vertical-align: middle;
+    position: absolute;
+    z-index: 99;
+    width: 29%;
+    height: 33%;
+    transition: .5s all ease;
+    display: table-cell;
+    /* overflow: hidden; */
+    border-radius: 20px;
+    vertical-align: middle;
 }
 .panel img {
 	position: relative;
@@ -405,12 +405,14 @@ width: 28%;
 .canvas {
 	z-index: 100;
     display: inline-block;
+	position: relative;
     background: url(img/main-canvas.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 64%;
     height: 100%;
     text-align: center;
+	
 }
 .scale-line {
     z-index: 98;
@@ -899,6 +901,30 @@ button:focus {
 }
 }
 
-.test {
-	border: 1px solid red;
+.test img {
+	width: 50%;
+}
+.border img {
+	border: 1px solid #d4cfcf;
+    width: 100%;
+    height: 100%;
+    transform: translate(0);
+	cursor: pointer;
+}
+
+.border:hover img {
+	border: 1px solid #aabdfd;
+	transform: translateY(0);
+}
+.border {
+    width: 20%;
+    height: auto;
+}
+.panels,.border {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+.border-active {
+	border: 1px solid #1889e6 !important;
 }
